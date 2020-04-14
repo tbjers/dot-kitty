@@ -1,4 +1,4 @@
-# tbjers/dot-zsh
+# tbjers/dot-kitty
 My Kitty dotfiles, compatible with [ellipsis][ellipsis].
 
 ## Install
