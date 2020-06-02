@@ -4,15 +4,6 @@
 
 pkg.link() {
   fs.link_rfiles common $HOME/.config/kitty
-
-  case $(os.platform) in
-    osx)
-      fs.link_rfiles platform/osx $HOME/.config/kitty
-      ;;
-    linux)
-      fs.link_rfiles platform/linux $HOME/.config/kitty
-      ;;
-  esac
 }
 
 pkg.install() {
